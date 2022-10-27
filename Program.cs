@@ -1,15 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace Day13Generics
 
-namespace Day13Generics
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+            //FindMaxNum findMaxNum = new FindMaxNum();
+            //findMaxNum.MaximumNum(10, 20, 30);
+
+            FindMaxFloat findMaxfloat = new FindMaxFloat();
+            findMaxfloat.MaximumFloat(33.6, 6.5, 7.8);
         }
     }
 }
+
